@@ -11,5 +11,4 @@ node.default['newrelic']['application_monitoring']['error_collector']['enable'] 
 node.default['newrelic']['application_monitoring']['transaction_tracer']['enable'] = true
 node.default['newrelic']['application_monitoring']['enabled'] = 'true'
 
-include_recipe 'python'
 include_recipe 'newrelic::python_agent'

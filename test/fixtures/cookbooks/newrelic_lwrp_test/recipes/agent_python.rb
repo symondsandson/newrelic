@@ -6,8 +6,6 @@
 # Copyright (c) 2016, David Joos
 #
 
-include_recipe 'python'
-
 newrelic_agent_python 'Install' do
   license node['newrelic']['license']
   config_file '/etc/newrelic/newrelic.ini'
